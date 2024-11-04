@@ -1,0 +1,59 @@
+# Arquivos de compilação e binários
+*.exe
+*.out
+*.obj
+*.o
+*.a
+*.so
+*.dll
+*.dylib
+
+# Diretórios de compilação
+/build/
+/bin/
+/lib/
+
+# Arquivos de depuração
+*.gch
+*.pch
+*.dSYM/
+*.stackdump
+*.core
+*.cplog
+
+# Configurações do sistema e arquivos temporários
+*.log
+*.tmp
+*.temp
+*.swp
+
+# Arquivos específicos do CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Configurações de IDEs e editores de código
+.vscode/
+.idea/
+*.code-workspace
+
+# Arquivos específicos do Visual Studio
+*.vcxproj*
+*.vcproj*
+*.sln
+*.pdb
+*.idb
+*.ipch
+*.res
+*.db
+*.opendb
+*.VC.opendb
+*.VC.db
+.vs/
+
+# Arquivos do MacOS
+.DS_Store
+
+# Arquivos do Windows
+Thumbs.db
