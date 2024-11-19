@@ -19,6 +19,7 @@ void Desenha(void)
 
     // Desenha o cubo
     glutSolidCube(2.0f);
+    glColor3f(0.0f, 0.0f, 1.0f);
 
     glutSwapBuffers();  // Troca os buffers para exibir a cena
 }
